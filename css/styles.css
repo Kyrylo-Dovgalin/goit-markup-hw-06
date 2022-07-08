@@ -21,6 +21,20 @@ body {
   letter-spacing: 0.03em;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -300,7 +314,7 @@ body {
 
 /* Оформление заголовка преимуществ */
 .benefits .title {
-  display: none; /*временно*/
+  
   margin: 0;
 
   color: var(--title-color);
@@ -585,7 +599,7 @@ body {
 }
 
 .projects .title {
-  display: none;
+
   margin: 0;
 
   color: var(--title-color);
