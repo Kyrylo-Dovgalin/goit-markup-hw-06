@@ -858,6 +858,11 @@ body {
   /* outline: 2px solid white; */
 }
 
+.subscribe {
+  margin-right: 93px;
+  outline: 2px solid white;
+}
+
 .subscribe .social-list {
   display: flex;
   list-style: none;
@@ -897,6 +902,12 @@ body {
 
 .subscribe .social-icon {
   fill: #ffffff;
+}
+
+
+.flex-subscription {
+  display: flex;
+  flex-direction: column;
 }
 
 .back-drop {
@@ -950,6 +961,7 @@ body {
   right: 0;
   height: 30px;
   width: 30px;
+  padding: 0;
   background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
