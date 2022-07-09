@@ -860,7 +860,7 @@ body {
 
 .subscribe {
   margin-right: 93px;
-  outline: 2px solid white;
+  /* outline: 2px solid white; */
 }
 
 .subscribe .social-list {
@@ -915,9 +915,11 @@ body {
 
 .subscribe-button {
   /* display: flex; */
-  align-items: center;
+  /* align-items: center; */
+  position: relative;
   width: 200px;
   height: 50px;
+  padding: 0;
 
   cursor: pointer;
   
@@ -932,7 +934,6 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   font-weight: 700;
-
   background-color: #2196F3;
   color: #FFFFFF;
   border: none;
@@ -944,13 +945,22 @@ body {
 
 .email-input {
   margin-right: 12px;
-  width: 350px;
+  width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
   color: #FFFFFF;
+
+}
+
+.send-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  fill: currentColor;
+  transform: translateX(-100%) translateY(-50%);
 }
 
 .back-drop {
@@ -984,9 +994,11 @@ body {
   top: 50%;
   left: 50%;
 
+  padding: 40px;
+
   width: 528px;
-  height: 581px;
-  padding: 15px;
+  
+
 
   transform: translate(-50%, -50%) scale(1) rotate(5turn);
 
@@ -996,6 +1008,10 @@ body {
  
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+}
+
+.input {
+  width: 448px;
 }
 
 .modal .close-button {
