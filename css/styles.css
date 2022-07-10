@@ -797,10 +797,16 @@ body {
   align-items: baseline;
 }
 
+
+.address {
+  margin-right: 70px;
+  /* outline: 1px solid white; */
+}
+
 .footer .logo {
   display: inline-block; /*!!!!!!*/
   margin: 0;
-  margin-right: 156px;
+  /* margin-right: 156px; */
 
   margin-bottom: 20px;
   padding: 0;
@@ -859,7 +865,7 @@ body {
 }
 
 .subscribe {
-  margin-right: 93px;
+  /* margin-right: 93px; */
   /* outline: 2px solid white; */
 }
 
@@ -905,6 +911,7 @@ body {
 }
 
 .subscription {
+   margin-left: auto;
 
 }
 
@@ -913,13 +920,22 @@ body {
   flex-direction: column;
 } */
 
+.flex-cont{
+  display:flex;
+  align-items: center;
+  
+}
+
 .subscribe-button {
-  /* display: flex; */
-  /* align-items: center; */
-  position: relative;
+  display: flex; 
+  align-items: center;
+  /* position: relative; */
+  /* display: block; */
   width: 200px;
   height: 50px;
   padding: 0;
+  margin: 0;
+  padding: 10px 29px;
 
   cursor: pointer;
   
@@ -944,6 +960,8 @@ body {
 }
 
 .email-input {
+  /* display: block; */
+  margin: 0;
   margin-right: 12px;
   width: 358px;
   height: 50px;
@@ -956,11 +974,12 @@ body {
 }
 
 .send-icon {
-  position: absolute;
-  top: 50%;
-  right: 0;
+  /* position: absolute; */
+  /* top: 50%; */
+  /* right: 0; */
   fill: currentColor;
-  transform: translateX(-100%) translateY(-50%);
+  margin-left: 10px;
+  /* transform: translateX(-75%) translateY(-50%); */
 }
 
 .back-drop {
