@@ -592,9 +592,9 @@
             </svg>
           </div>
 
-          <label class="label" for="email">Почта</label>
+          <label class="label" for="email-modal">Почта</label>
           <div class="input-field">
-            <input class="input" type="email" name="e-mail" id="email" />
+            <input class="input" type="email" name="e-mail" id="email-modal" />
             <svg class="icon-input" width="18" height="18">
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
@@ -609,24 +609,48 @@
             placeholder="Введите текст"
           ></textarea>
 
-          <!-- <div class="policy-field"> -->
-          <label class="policy-label" for="policy">
+          <!-- <div class="policy-field">
+            <span class="custom-checkbox"></span>
+
+            <label class="policy-label" for="policy">
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="agreement"
+                id="policy"
+              />
+              Соглашаюсь с рассылкой и принимаю
+              <a
+                class="policy-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Условия договора</a
+              >
+            </label>
+          </div> -->
+
+          <label class="policy-label">
             <input
               class="checkbox"
               type="checkbox"
               name="agreement"
-              id="policy"
+              id="policy1"
             />
-            Соглашаюсь с рассылкой и принимаю
-            <a
-              class="policy-link"
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              >Условия договора</a
-            ></label
-          >
-          <!-- </div> -->
+            <span class="custom-checkbox"></span>
+            <span
+              >Соглашаюсь с рассылкой и принимаю
+              <a
+                class="policy-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Условия договора</a
+              ></span
+            >
+          </label>
 
           <button class="send-button" type="submit">Отправить</button>
         </form>
