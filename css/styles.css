@@ -1013,7 +1013,7 @@ body {
 .back-drop.is-hidden {
   opacity: 0;
   pointer-events: none;
-  /* visibility: hidden; */
+   /* visibility: hidden;  */
 }
 
 .back-drop.is-hidden .modal {
@@ -1042,12 +1042,17 @@ body {
 
 .modal .close-button {
   position: absolute;
-  display: block;
+  /* display: block; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   top: 0;
   right: 0;
   height: 30px;
   width: 30px;
-  padding: 5px; /*????*/
+  padding: 0;
+  /* padding: 5px; ???? */
 
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1117,7 +1122,7 @@ body {
   top: 50%;
   left: 0;
   transform: translate(12px, -50%);
-  fill: currentColor;
+  fill: #212121;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1190,6 +1195,7 @@ body {
   background-image: url(../images/custom-checkbox.svg);
   background-size: contain;
   background-origin: border-box;
+  border: none;
 }
 
 .modal .policy-link {
